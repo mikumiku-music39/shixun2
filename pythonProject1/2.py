@@ -1,7 +1,7 @@
 import pandas as pd
 
 # 定义一个函数来安全地读取CSV文件
-def safe_read_csv(file_path, encoding='gbk'):
+def safe_read_csv(file_path, encoding='utf-8'):
     try:
         df = pd.read_csv(file_path, encoding=encoding, dtype=object, low_memory=False)
         # 检查并转换'sjfhze'列为数值类型
@@ -63,8 +63,8 @@ def process_csv_files(file_path1, file_path2):
 
 # 调用主处理函数
 result_df = process_csv_files(
-    'C:\\Users\\ooo\\Desktop\\project-2024-a-master\\data\\ERP_KHXD.csv',
-    'C:\\Users\\ooo\\Desktop\\project-2024-a-master\\data\\ERP_KHXX.csv'
+    'E:\\Desktop\\shixunpoject\\shixun2\\project-2024-a-master\\data\\ERP_KHXD.csv',
+    'E:\\Desktop\\shixunpoject\\shixun2\\project-2024-a-master\\data\\ERP_KHXX.csv'
 )
 
 # 打印结果

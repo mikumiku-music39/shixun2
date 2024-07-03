@@ -6,11 +6,11 @@ plt.rcParams['font.sans-serif'] = ['SimHei']  # 指定默认字体为SimHei
 plt.rcParams['axes.unicode_minus'] = False  # 解决负号显示问题
 
 # 定义文件路径
-file_path = 'C:\\Users\\ooo\\Desktop\\project-2024-a-master\\data\\ERP_KHXD.csv'
+file_path = 'E:\\Desktop\\shixunpoject\\shixun2\\project-2024-a-master\\data\\ERP_KHXD.csv'
 
 # 尝试读取CSV文件，使用GBK编码，设置low_memory=False以处理混合类型数据
 try:
-    data = pd.read_csv(file_path, encoding='GBK', low_memory=False)
+    data = pd.read_csv(file_path, encoding='utf-8', low_memory=False)
 except Exception as e:
     print(f"读取文件时发生错误: {e}")
     exit()
