@@ -1,4 +1,0 @@
-id,mtxx_id,mtbh,djzt,yxjr,txmy,queue,bdmb,bdmb_width,bdmb_height,create_by,create_time,update_by,update_time,remark,data_key,authorized_key,lshqz,app_name,app_x,app_y,app_width,app_height,unit
-1,1,b592dd93-3259-49fd-ad76-6dcefa5e2021,0,1,83838919911,null,2022/04/25/cc41dc36d86a4c2b8a13d4013f29b737.xlsx,8.26,11.69,admin,2022-04-18 22:47:54,admin,2023-04-08 08:44:08,,,,A,称重管理系统,20,90,400,90,千克
-2,12,b592dd93-3259-49fd-ad76-6dcefa5e2022,0,1,73918918891,null,,8.26,11.69,dsadmin,2022-10-09 11:33:31,admin,2023-04-07 23:58:02,,,,B,武汉康斯坦特自动化科技有限公司,10,110,1980,170,吨
-3,4,b592dd93-3259-49fd-ad76-6dcefa5e2023,0,1,93838919911,null,2023/02/23/3a2133b8d9f74ec4b81d2b1c05cec954.xlsx,8.26,11.69,dsadmin,2022-11-17 11:31:37,dsadmin,2024-05-17 12:31:37,,,,C,称重管理系统,50,90,390,180,吨
